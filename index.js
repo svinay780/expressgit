@@ -13,6 +13,6 @@ app.get("/home",(req,res)=>{
     let {user}=req.query
     res.render("home.ejs",{user})
 })
-app.get("https://svinay780.github.io/expressgit/",(req,res)=>{
+app.get("/login",(req,res)=>{
     res.render("login.ejs")
 })
