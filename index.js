@@ -13,6 +13,3 @@ app.get("/home",(req,res)=>{
     let {user}=req.query
     res.render("home.ejs",{user})
 })
-app.get("/login",(req,res)=>{
-    res.render("login.ejs")
-})
